@@ -1,0 +1,74 @@
+select{
+    all: unset;
+}
+
+.container{
+    width: 100%;
+    background-color: var(--secondary-color);
+    box-shadow: 0 2px 16px rgba(0, 0, 0, 0.053);
+    padding: 16px 32px;
+    display: flex;
+    align-items: flex-start;
+}
+
+.button{
+    padding: 8px 16px;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    color: #333; 
+    background-color: #ffffff; 
+    transition: all 0.3s ease;
+    display: flex;
+    align-items: center;
+    gap:4px;
+}
+
+
+.modal{
+    position: absolute;
+    top:64px;
+    left:32px;
+    width:fit-content;
+    padding:24px 18px;
+    background-color: var(--primary-color);
+    border: 1px solid rgba(204, 204, 204, 0.5);
+    border-radius: 8px;
+    font-size: 16px;
+    color: var(--grey-color);
+    font-weight: 600;
+    display: flex;
+    flex-direction: column;
+    gap:24px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.parameter{
+    width:100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 96px
+}
+
+
+.select {
+    padding: 8px 12px;
+    font-size: 14px;
+    width:108px;
+    font-weight: 600;
+    cursor: pointer;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    color: #333; 
+    background-color: #ffffff; 
+    transition: all 0.3s ease;
+    display: flex;
+    align-items: center;
+    gap:4px;
+    background-image: url('../../../public/icons/chevron-down.svg');
+    background-repeat: no-repeat;
+    background-position: right 16px center;
+}

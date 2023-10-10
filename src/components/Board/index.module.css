@@ -1,0 +1,38 @@
+.container{
+    padding: 36px 32px ;
+    height: fit-content;
+    display: flex;
+    justify-content: space-between;
+    gap:36px;
+}
+
+.body{
+    flex:1;
+    display: flex;
+    flex-direction: column;
+    gap:24px;
+}
+
+.header{
+    padding: 0 8px 0 4px;
+    display:flex;
+    gap:12px;
+    align-items: center;
+    font-size: 16px;
+    font-weight: 600;
+    color: var( --black-color);
+}
+
+
+.count{
+    font-size: 14px;
+    font-weight: 600;
+    color: var(  --grey-color);
+}
+
+.icons{
+    font-size: 20px;
+    font-weight: 700;
+    color: var(--grey-color);
+}
+

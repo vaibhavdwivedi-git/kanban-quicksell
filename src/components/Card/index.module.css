@@ -1,0 +1,36 @@
+.container{
+    padding: 32px 28px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border: 1px solid rgba(204, 204, 204, 0.5);
+    border-radius: 12px;
+}
+
+.subText{
+    font-size: 16px;
+    color: var(--grey-color);
+    font-weight: 500;
+}
+
+.headText{
+    margin-top: 8px;
+    font-size: 18px;
+    color: var(--black-color);
+    letter-spacing: 0.37px;
+}
+
+.label{
+    padding: 8px 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border: 1px solid rgba(204, 204, 204, 0.5);
+    border-radius: 8px;
+    gap:8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.profile{
+    height: 42px;
+    width: 42px;
+}

@@ -1,0 +1,21 @@
+.container{
+    width:36px;
+    height:36px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 600;
+    font-size: 14px;
+    background-color: #C06D25;
+}
+
+.status{
+    border:1px solid  #ffffff;
+    width:8px;
+    height: 8px;
+    border-radius: 50%;
+    position:relative;
+    top:12px;
+    left: 4px;
+}

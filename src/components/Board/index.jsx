@@ -7,7 +7,7 @@ import { sortByPriority, sortByTitle } from "../../services/utils";
 const Board = ({ data, users, options }) => {
   const groupKeys = Object.keys(data[options.grouping]);
 
-  const priorities = ["No priority", "Urgent", "High", "Medium", "Low"];
+  const priorities = ["No priority", "Low", "Medium", "High", "Urgent"];
 
   return (
     <div className={styles.container}>
